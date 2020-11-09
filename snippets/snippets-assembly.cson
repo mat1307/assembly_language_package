@@ -1,0 +1,178 @@
+'.source.assembly.asm.beta.machine':
+    'ADD instruction':
+        'prefix': 'ADD'
+        'body': 'ADD($1, $2, $3)'
+    'ADDC instruction':
+        'prefix': 'ADDC'
+        'body': 'ADDC($1, $2, $3)'
+    'AND instruction':
+        'prefix': 'AND'
+        'body': 'AND($1, $2, $3)'
+    'ANDC instruction':
+        'prefix': 'ANDC'
+        'body': 'ANDC($1, $2, $3)'
+    'MUL instruction':
+        'prefix': 'MUL'
+        'body': 'MUL($1, $2, $3)'
+    'MULC instruction':
+        'prefix': 'MULC'
+        'body': 'MULC($1, $2, $3)'
+    'DIV instruction':
+        'prefix': 'DIV'
+        'body': 'DIV($1, $2, $3)'
+    'DIVC instruction':
+        'prefix': 'DIVC'
+        'body': 'DIVC($1, $2, $3)'
+    'OR instruction':
+        'prefix': 'OR'
+        'body': 'OR($1, $2, $3)'
+    'ORC instruction':
+        'prefix': 'ORC'
+        'body': 'ORC($1, $2, $3)'
+    'SHL instruction':
+        'prefix': 'SHL'
+        'body': 'SHL($1, $2, $3)'
+    'SHLC instruction':
+        'prefix': 'SHLC'
+        'body': 'SHLC($1, $2, $3)'
+    'SHR instruction':
+        'prefix': 'SHR'
+        'body': 'SHR($1, $2, $3)'
+    'SHRC instruction':
+        'prefix': 'SHRC'
+        'body': 'SHRC($1, $2, $3)'
+    'SRA instruction':
+        'prefix': 'SRA'
+        'body': 'SRA($1, $2, $3)'
+    'SRAC instruction':
+        'prefix': 'SRAC'
+        'body': 'SRAC($1, $2, $3)'
+    'SUB instruction':
+        'prefix': 'SUB'
+        'body': 'SUB($1, $2, $3)'
+    'SUBC instruction':
+        'prefix': 'SUBC'
+        'body': 'SUBC($1, $2, $3)'
+    'XOR instruction':
+        'prefix': 'XOR'
+        'body': 'XOR($1, $2, $3)'
+    'XORC instruction':
+        'prefix': 'XORC'
+        'body': 'XORC($1, $2, $3)'
+    'CMPEQ instruction':
+        'prefix': 'CMPEQ'
+        'body': 'CMPEQ($1, $2, $3)'
+    'CMPEQC instruction':
+        'prefix': 'CMPEQC'
+        'body': 'CMPEQC($1, $2, $3)'
+    'CMPLE instruction':
+        'prefix': 'CMPLE'
+        'body': 'CMPLE($1, $2, $3)'
+    'CMPLEC instruction':
+        'prefix': 'CMPLEC'
+        'body': 'CMPLEC($1, $2, $3)'
+    'CMPLT instruction':
+        'prefix': 'CMPLT'
+        'body': 'CMPLT($1, $2, $3)'
+    'CMPLTC instruction':
+        'prefix': 'CMPLTC'
+        'body': 'CMPLTC($1, $2, $3)'
+    'LDR instruction':
+        'prefix': 'LDR'
+        'body': 'LDR($1, $2)'
+    'MOVE instruction':
+        'prefix': 'MOVE'
+        'body': 'MOVE($1, $2)'
+    'CMOVE instruction':
+        'prefix': 'CMOVE'
+        'body': 'CMOVE($1, $2)'
+    'HALT instruction':
+        'prefix': 'HALT'
+        'body': 'HALT()'
+    'RTN instruction':
+        'prefix': 'RTN'
+        'body': 'RTN()'
+    'XRTN instruction':
+        'prefix': 'XRTN'
+        'body': 'XRTN()'
+    'PUSH instruction':
+        'prefix': 'PUSH'
+        'body': 'PUSH($1)'
+    'POP instruction':
+        'prefix': 'POP'
+        'body': 'POP($1)'
+    'ALLOCATE instruction':
+        'prefix': 'ALLOCATE'
+        'body': 'ALLOCATE($1)'
+    'DEALLOCATE instruction':
+        'prefix': 'DEALLOCATE'
+        'body': 'DEALLOCATE($1)'
+    'CALL instruction':
+        'prefix': 'CALL'
+        'body': 'CALL($1)'
+    'CALL instruction (with pop)':
+        'prefix': 'CALL'
+        'body': 'CALL($1, $2)'
+    'WORD instruction':
+        'prefix': 'WORD'
+        'body': 'WORD($1)'
+    'LONG instruction':
+        'prefix': 'LONG'
+        'body': 'LONG($1)'
+    'STORAGE instruction':
+        'prefix': 'STORAGE'
+        'body': 'STORAGE($1)'
+    'GETFRAME instruction':
+        'prefix': 'GETFRAME'
+        'body': 'GETFRAME($1, $2)'
+    'PUTFRAME instruction':
+        'prefix': 'PUTFRAME'
+        'body': 'PUTFRAME($1, $2)'
+    'BR instruction':
+        'prefix': 'BR'
+        'body': 'BR($1, $2)'
+    'BR instruction (no PC save)':
+        'prefix': 'BR'
+        'body': 'BR($1)'
+    'BEQ instruction':
+        'prefix': 'BEQ'
+        'body': 'BEQ($1, $2, $3)'
+    'BEQ instruction (no PC save)':
+        'prefix': 'BEQ'
+        'body': 'BEQ($1, $2)'
+    'BF instruction':
+        'prefix': 'BF'
+        'body': 'BF($1, $2, $3)'
+    'BF instruction (no PC save)':
+        'prefix': 'BF'
+        'body': 'BF($1, $2)'
+    'BNE instruction':
+        'prefix': 'BNE'
+        'body': 'BNE($1, $2, $3)'
+    'BNE instruction (no PC save)':
+        'prefix': 'BNE'
+        'body': 'BNE($1, $2)'
+    'BT instruction':
+        'prefix': 'BT'
+        'body': 'BT($1, $2, $3)'
+    'BT instruction (no PC save)':
+        'prefix': 'BT'
+        'body': 'BT($1, $2)'
+    'JMP instruction':
+        'prefix': 'JMP'
+        'body': 'JMP($1, $2)'
+    'JMP instruction (no PC save)':
+        'prefix': 'JMP'
+        'body': 'JMP($1)'
+    'LD instruction (offset)':
+        'prefix': 'LD'
+        'body': 'LD($1, $2, $3)'
+    'LD instruction (no offset)':
+        'prefix': 'LD'
+        'body': 'LD($1, $2)'
+    'ST instruction (offset)':
+        'prefix': 'ST'
+        'body': 'ST($1, $2, $3)'
+    'ST instruction (no offset)':
+        'prefix': 'ST'
+        'body': 'ST($1, $2)'

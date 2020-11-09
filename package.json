@@ -1,0 +1,18 @@
+{
+  "name": "assembly-beta-machine",
+  "main": "./lib/assembly-beta-machine",
+  "version": "1.0.0",
+  "description": "Syntax highlight and snippets used for the INFO0012 course.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "assembly-beta-machine:toggle"
+  },
+  "repository": "https://github.com/atom/assembly-beta-machine",
+  "license": "public",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
