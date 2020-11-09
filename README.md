@@ -1,4 +1,4 @@
-# language-assembly
+# Assembly language package
 ## An assembly grammar for Atom.
 ------------
 
@@ -13,9 +13,11 @@ This package is aimed at having syntax highlight and snippets for atom for the b
 ### Linux
 
 Extract the zip file into your "home/.atom/packages" folder.
+It should look like this : "home/.atom/packages/assembly_language_package-main"
 
 ### Windows 
 
 Extract the zip file into your "user/.atom/packages" folder.
+It should look like this : "user/.atom/packages/assembly_language_package-main"
 
 Note that you may need to make hiden files visible to see the ".atom" folder
